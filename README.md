@@ -32,6 +32,8 @@ pip3 install requests
 python3 abs_data_gui.py
 ```
 
+3. If any other Python packages need to be installed, there will be error messages. Read these messages to figure out what other packages you will need to install, if your default Python package in Anaconda doesn't have them.
+
 ### 2️⃣ **Enter Your API Key**
 - Get your free API key from: https://developer.vic.gov.au
 - Paste it in the GUI's API Key field
