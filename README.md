@@ -1,3 +1,9 @@
+---
+author: Yeo Yong Kiat, Ministry of Health
+date: 14 Nov 2025
+program phase: beta-testing (potential bugs, may require fixing if you find them)
+---
+
 # 🇦🇺 ABS Labour Force Data Fetcher
 
 This is a Python application with a GUI for fetching, processing, and managing Australian Bureau of Statistics (ABS) Labour Force data. Features automatic checkpointing, rate limiting, and crash recovery.
@@ -125,7 +131,11 @@ Then:
 3. Watch progress bar
 4. Get CSV file: `abs_labour_force_data_FIXED_YYYYMMDD_HHMMSS.csv`
 
+Using the GUI, you only need to click "▶️ Fetch Data" and all the execution will be performed manually for you.
+
 ### Command Line Mode (Advanced)
+
+If you prefer the Command Line, or maybe if there's a bug in the code that you want to fix, you then need to run the fetch_abs_data_auto.py file first. Once it completes, run the fix_abs_csv.py file.
 
 ```bash
 # Fetch all data
@@ -428,5 +438,5 @@ If this tool helps your research, give it a star! ⭐
 
 **Built with ❤️ for policy researchers and data analysts**
 
-*Last updated: November 2024*
+*Last updated: November 2025*
 
